@@ -5,10 +5,8 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args) {
-        // write your code here
-        int[] numbers = {7, 3, 1, 4, 6, 2, 3};
-        var sorter = new MergeSort();
-        sorter.sort(numbers);
-        System.out.println(Arrays.toString(numbers));
+        //System.out.println(StringUtils.countVowels("Hello World"));
+        //System.out.println(StringUtils.reverseWithoutStack("Hello"));
+        System.out.println(StringUtils.reverseWords("Hello World"));
     }
 }
